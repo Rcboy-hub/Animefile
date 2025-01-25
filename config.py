@@ -35,7 +35,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://harish:harish%402606@cluster0.wfs2u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://harish:Anime%23%23%40%40@cluster0.5qxpw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Auto Delete Information
@@ -46,7 +47,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002472754581"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "1002417240764"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -59,8 +60,8 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "http://short2url.in/") # shortlink domain without https://
-SHORTLINK_API = environ.get("SHORTLINK_API", "caac0ebeca0f88d106996b399a993c6e9bcc534a") # shortlink api
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "short2url.in/") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "24c51e1e0761d6fdc0978a46ead2e9cc96bc3c05") # shortlink api
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hdmovies2792/11") # how to open link 
 
 # Website Info:
